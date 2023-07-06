@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-#   - source: /test.jsp
-#     destination: /root/tomcat/webapps/ROOT
+   - source: /springbootApp.jar
+     destination: /root
 #   - source: /index.html
 #     destination: /var/www/html
 #
