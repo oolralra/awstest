@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 
 files:
-   - source: /test.jsp
-     destination: /root/tomcat/webapps/ROOT
+#   - source: /test.jsp
+#     destination: /root/tomcat/webapps/ROOT
 #   - source: /index.html
 #     destination: /var/www/html
 #
@@ -14,7 +14,3 @@ hooks:
     - location: server_start.sh
       timeout: 300
       runas: root
-  ApplicationStop:
-    - location: server_stop.sh
-      timeout: 300
-      runas: root 
