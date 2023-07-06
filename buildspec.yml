@@ -18,5 +18,5 @@ artifacts:
     - index.html
     - scripts/server_start.sh
     - appspec.yml
-    - springbootApp.jar 
+    - target/springbootApp.jar 
   discard-paths: yes
