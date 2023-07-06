@@ -1,2 +1,4 @@
 #!/bin/bash
-nohup java -jar /root/springbootApp.jar &
+sudo chmod +x /root/tomcat/bin/./startup.sh
+sudo /root/tomcat/bin/./startup.sh
+echo 1
